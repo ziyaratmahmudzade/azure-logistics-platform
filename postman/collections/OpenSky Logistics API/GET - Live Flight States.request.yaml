@@ -1,0 +1,5 @@
+$kind: http-request
+name: GET - Live Flight States
+url: https://opensky-network.org/api/states/all
+method: GET
+order: 1786547042341

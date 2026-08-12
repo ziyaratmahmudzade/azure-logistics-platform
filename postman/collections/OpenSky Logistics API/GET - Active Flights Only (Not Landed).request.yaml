@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET - Active Flights Only (Not Landed)
+url: https://opensky-network.org/api/states/all?lamin=41.0&lomin=-5.5&lamax=51.5&lomax=10.0
+method: GET
+queryParams:
+  lamin: "41.0"
+  lomin: "-5.5"
+  lamax: "51.5"
+  lomax: "10.0"
+order: 3014560081965129
