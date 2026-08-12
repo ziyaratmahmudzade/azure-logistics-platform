@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+
+# Azure credentials — do not commit to version control*.json
+!ingestion/batch/shipments.csv
+
+# VS Code
+.vscode/
+
+# Local secrets
+*.key
+*.pem
