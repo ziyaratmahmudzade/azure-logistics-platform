@@ -1,6 +1,10 @@
 -- Logistics Platform Gold Layer Views
 -- Run in Synapse Serverless SQL Pool against logistics_gold database
 
+-- Create database
+CREATE DATABASE logistics_gold
+USE logistics_gold;
+
 -- Create schema
 CREATE SCHEMA gold;
 
