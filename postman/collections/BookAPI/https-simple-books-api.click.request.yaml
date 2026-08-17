@@ -1,0 +1,6 @@
+$kind: http-request
+name: https://simple-books-api.click
+description: ""
+url: "{{baseURL}}/status"
+method: GET
+order: 1786827947372
