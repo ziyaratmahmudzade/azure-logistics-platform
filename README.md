@@ -20,25 +20,26 @@ and delivering business insights via Power BI dashboards.
 ---
 
 ## Architecture
+```
 Data Sources
-├── OpenSky Network API (live flight data — 8,000+ aircraft)
-└── CSV Batch Files (shipment records)
-↓
-Bronze Layer (ADLS Gen2)
-Raw, unmodified data partitioned by date
-↓
-Silver Layer (ADLS Gen2 + Databricks)
-Cleaned, validated, enriched Delta tables
-↓
-Gold Layer (ADLS Gen2 + Databricks)
-Aggregated business KPIs in Delta format
-↓
-Synapse Analytics (Serverless SQL)
-SQL views over Gold Delta tables
-↓
-Power BI Dashboards
-Live business intelligence
----
+  ├── OpenSky Network API (live flight data — 8,000+ aircraft)
+  └── CSV Batch Files (shipment records)
+          ↓
+  Bronze Layer (ADLS Gen2)
+  Raw, unmodified data partitioned by date
+          ↓
+  Silver Layer (ADLS Gen2 + Databricks)
+  Cleaned, validated, enriched Delta tables
+          ↓
+  Gold Layer (ADLS Gen2 + Databricks)
+  Aggregated business KPIs in Delta format
+          ↓
+  Synapse Analytics (Serverless SQL)
+  SQL views over Gold Delta tables
+          ↓
+  Power BI Dashboards
+  Live business intelligence
+```
 
 ## Tech Stack
 
@@ -60,7 +61,7 @@ Live business intelligence
 ## Project Structure
 ---
 
-## Key Business Insights
+## Key Business Insights for 12.06.2026
 
 ### Carrier Performance
 - **Best OTD rate:** UPS at 45.95%
