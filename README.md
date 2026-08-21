@@ -9,13 +9,13 @@ and delivering business insights via Power BI dashboards.
 ## Dashboards
 
 ### On-Time Delivery & Carrier Performance
-![OTD Dashboard](screenshots/otd_carrier_performance.png)
+![OTD Dashboard](assets/otd_carrier_performance.png)
 
 ### Route Delay Analysis
-![Route Delays](screenshots/route_delays.png)
+![Route Delays](assets/route_delays.png)
 
 ### Flight Tracking
-![Flight Tracking](screenshots/flight_tracking.png)
+![Flight Tracking](assets/flight_tracking.png)
 
 ---
 

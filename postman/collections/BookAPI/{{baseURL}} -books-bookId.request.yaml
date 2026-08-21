@@ -1,8 +1,0 @@
-$kind: http-request
-name: "{{baseURL}} /books/:bookId"
-description: ""
-url: "{{baseURL}} /books/:bookId"
-method: GET
-pathVariables:
-  bookId: ""
-order: 3895372826527783
