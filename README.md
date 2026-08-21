@@ -142,8 +142,6 @@ kubectl apply -f kubernetes/batch-ingestion-cronjob.yaml
 ```
 ---
 
-## Author
-Ziyarat Mahmudzade  
-[GitHub](https://github.com/ziyaratmahmudzade)
-
+## License
+MIT
 ---
