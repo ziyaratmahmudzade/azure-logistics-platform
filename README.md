@@ -140,8 +140,6 @@ kubectl apply -f kubernetes/api-ingestion-cronjob.yaml
 # Deploy batch ingestion CronJob (runs daily at 6am)
 kubectl apply -f kubernetes/batch-ingestion-cronjob.yaml
 ```
----
 
 ## License
 MIT
----
